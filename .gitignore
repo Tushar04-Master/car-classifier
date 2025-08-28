@@ -1,0 +1,63 @@
+# ------------------
+# Python
+# ------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments (local only)
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# ------------------
+# Colab / Notebooks
+# ------------------
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.ipynb_save/
+*.ipynb_snapshots/
+*.ipynb.tmp
+
+# ------------------
+# TensorFlow / ML
+# ------------------
+*.ckpt
+*.ckpt.*
+checkpoint
+saved_model/
+*.h5
+*.tflite
+
+# Logs
+logs/
+*.log
+events.out.tfevents.*
+
+# TensorBoard
+tensorboard/
+
+# ------------------
+# Data
+# Ignore the data folder and all its contents
+data/
+
+# ------------------
+# Streamlit / Deployment
+# ------------------
+.streamlit/
+.streamlit/secrets.toml
+
+# ------------------
+# OS / Misc
+# ------------------
+.DS_Store
+Thumbs.db

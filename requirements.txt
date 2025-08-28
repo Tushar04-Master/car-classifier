@@ -1,0 +1,7 @@
+tensorflow-macos
+tensorflow-metal
+pandas
+scikit-learn
+jupyterlab
+opencv-python-headless
+Pillow
