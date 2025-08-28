@@ -1,0 +1,12 @@
+streamlit==1.49.0
+pandas==2.3.2
+numpy==1.26.4
+opencv-python
+Pillow
+scikit-learn
+matplotlib
+protobuf
+
+# Use tensorflow on Linux (server), tensorflow-macos on macOS (your local dev)
+tensorflow==2.19.1; platform_system != "Darwin"
+tensorflow-macos==2.19.1; platform_system == "Darwin"
